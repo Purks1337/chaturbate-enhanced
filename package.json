@@ -1,0 +1,26 @@
+{
+  "name": "chaturbate-enhanced",
+  "version": "1.0.0",
+  "description": "Enhanced features for Chaturbate including chat translation, Russian text blocking, and Statbate integration",
+  "main": "src/background.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r src/* dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purks1337/chaturbate-enhanced.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "chaturbate",
+    "translation",
+    "statbate"
+  ],
+  "author": "Purks the pilot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Purks1337/chaturbate-enhanced/issues"
+  },
+  "homepage": "https://github.com/Purks1337/chaturbate-enhanced#readme"
+} 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=285, initial-scale=1.0">
+  <title>Химия</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #4A4E4D;
+      border-radius: 10px;
+      width: 285px;
+      height: 390px;
+      font-family: 'Roboto', sans-serif;
+      color: #DEDEDE;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="popup-root">
+    <div class="header-section">
+      <div class="popup-header">Химия</div>
+      <div class="status-block">
+        <div class="status-info">
+          <div class="status-label">Статус</div>
+          <div class="status-value" id="statusValue">Выключено</div>
+        </div>
+        <button class="status-power" id="powerBtn" title="Включить/выключить">
+          <span class="material-icons">power_settings_new</span>
+        </button>
+      </div>
+    </div>
+    <div class="cb-section">
+      <div class="cb-title-row">
+        <div class="cb-logo">CB</div>
+        <div class="cb-title">Chaturbate</div>
+      </div>
+      <div class="cb-block">
+        <div class="cb-features">
+          <div class="cb-feature-row">
+            <span class="cb-feature-icon material-icons">block</span>
+            <span class="cb-feature-label">Запрет русского</span>
+            <label class="switch">
+              <input type="checkbox" id="blockerToggle" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="cb-divider"></div>
+          <div class="cb-feature-row">
+            <span class="cb-feature-icon material-icons">translate</span>
+            <span class="cb-feature-label">Переводчик</span>
+            <label class="switch">
+              <input type="checkbox" id="translationToggle">
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="cb-divider"></div>
+          <div class="cb-feature-row">
+            <span class="cb-feature-icon material-icons">show_chart</span>
+            <span class="cb-feature-label">Statbate</span>
+            <label class="switch">
+              <input type="checkbox" id="statbateToggle">
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-block">
+      <button class="update-btn" id="updateBtn">
+        <span class="material-icons">update</span>
+        <span class="update-label">Обновление</span>
+      </button>
+      <div class="version-label">Версия 1.0</div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

@@ -1,0 +1,53 @@
+/* Chat Translation Styles */
+.translated-chat-message {
+    opacity: 0.70 !important;
+    margin-top: 0px !important;
+    margin-bottom: 1px !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    border-left: 1px solid #555 !important;
+    padding-left: 4px !important;
+}
+
+.translated-chat-message [data-testid="chat-message-text"],
+.translated-chat-message .msg-text span {
+    color: #9e9e9e !important;
+}
+
+body.theme-light .translated-chat-message {
+    border-left: 1px solid #bbb !important;
+}
+
+body.theme-light .translated-chat-message [data-testid="chat-message-text"],
+body.theme-light .translated-chat-message .msg-text span {
+    color: #616161 !important;
+}
+
+/* Russian Blocker Styles */
+.disabled-send-button-clone-cb-1-5 {
+    background-color: #888888 !important;
+    color: #cccccc !important;
+    border-color: #777777 !important;
+    cursor: not-allowed !important;
+}
+
+.disabled-send-button-clone-cb-1-5.ButtonColor-red {
+    background-color: #888888 !important;
+    border-color: #777777 !important;
+}
+
+/* Tip Info Styles */
+#userscript-statbate-custom-tip-info {
+    /* padding: 9px 10px; */
+    /* border-top: 1px solid #e0e0e0; */
+}
+
+.ucmUserLabel {
+    padding: 9px 10px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.ucmSublabel {
+    font-size: 10px;
+    margin-top: 4px;
+} 
